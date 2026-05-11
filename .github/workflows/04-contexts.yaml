@@ -73,4 +73,4 @@ jobs:
       run: echo "Sonar Scan"
 
     - name: print job Contexts
-      run: "${{ toJson(job) }}"
+      run: echo "${{ toJson(job) }}"
