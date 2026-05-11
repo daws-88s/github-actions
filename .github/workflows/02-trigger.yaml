@@ -2,7 +2,7 @@ name: Triggers
 on: 
   push:
     branches:
-      - 'feature*'
+      - 'main'
   # workflow_dispatch
   # [push] # Triggers the workflow on every push to the repository
 
@@ -15,4 +15,4 @@ jobs:
       # - name: Manual dispatch
       #   run: echo "manually dispatched" # The command to execute
       - name: feature branch push
-        run: echo "feature branch push"
+        run: echo "main branch push"
