@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest # Github hosted runners
     steps:
       - name: Greet the world
-        uses: daws-88s/workflows/.github/actions/hello-world@main
+        uses: daws-88s/github-actions/.github/actions/hello-world@main
         with:
           who-to-greet: 'Sivakumar'
